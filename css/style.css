@@ -239,12 +239,6 @@ background-position: center;
 padding: 2%;
 }
 
-.grid-item{
-    text-align: center;
-    box-shadow: 0 0 5px #bfc4d3;
-    height: 280px;
-    padding: 50px 0 50px 0;
-}
 
 .grid h2 {
     font-size: 40px;
@@ -277,9 +271,9 @@ padding: 2%;
 }
 
 .grid-item{
-    box-shadow: 0 0 2px #7581a1;
     text-align: center;
-    border-radius: 5%;
+    box-shadow: 0 0 5px #bfc4d3;
+    border-radius: 3%;
 }
 
 .grid-icon{
@@ -292,43 +286,39 @@ padding: 2%;
 
 .grid-icon-1{
     background-image: url(../img/icon_9.png);
-    width: 73px;
-    height: 79px;
+    width: 89px;
+    height: 85px;
     margin-top: 20px;
 }
 
 .grid-icon-2{
     background-image: url(../img/icon_8.png);
     width: 89px;
-    height: 85px;
-    margin-top: 20px;
+    height: 85px;   
+    margin-top: 20px; 
 }
 
 .grid-icon-3{
     background-image: url(../img/icon_10.png);
     width: 89px;
     height: 85px;
-    margin-top: 20px;
 }
 
 .grid-icon-4{
     background-image: url(../img/icon_6.png);
     width: 89px;
     height: 85px;
-    margin-top: 20px;
 }
 
 .grid-icon-5{
     background-image: url(../img/icon_5.png);
     width: 89px;
     height: 85px;
-    margin-top: 20px;
 }
 .grid-icon-6{
     background-image: url(../img/icon_7.png);
     width: 89px;
     height: 85px;
-    margin-top: 20px;
 }
 
 .grid{
@@ -362,10 +352,6 @@ padding: 2%;
 .grid-text{
     grid-area: h;
 }
-
-
-
-
 
 .page-subscribe {
     background: rgba(16,53,159,1);
