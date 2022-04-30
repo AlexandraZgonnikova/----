@@ -1063,64 +1063,117 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#10359f', end
     padding: 0 0 100px 0;
 }
 
+.page-team {
+    text-align: center;
+    background-image: url(..//img/team-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 80px 0 20px 0;
+}
+
+.page-team .title-h2-40 span {
+    color: #85c8ff;
+}
+
+.page-team .title-h2-40 {
+    color: #fff;
+}
+
 .box-team {
     display: flex;
     justify-content: space-between;
     margin-top: 140px;
 }
+
 .box-team-item {
-    background-color: #f5faff;
-    flex-basis: 12%;
-    padding: 0 0 80px 0;
+    background-color: #fff;
+    flex-basis: 32%;
+    box-shadow: 0 5px 6px #f4f4f4;
     position: relative;
-}
-.box-team-item img {
-    margin: -80px 30px 0 30px;
-}
-.box-team-item p {
-    font-size: 26px;
-    font-weight: 600;
-    color: #192b59;
-}
-.box-team-item strong {
-    font-size: 14px;
-    font-weight: 800;
-    color: #1a88e1;
+    padding: 190px 0 40px 0;
 }
 
-.box-team-item p, strong {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.box-team-item .position {
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #1a88e1;
+    font-weight: 900;
+    letter-spacing: 2.1px;
+}
+
+.box-team-item .name {
+    font-size: 26px;
+    color: #192b59;
+    font-weight: 600;
+    margin-top: 10px;
+    letter-spacing: -0.5px;
+}
+
+.box-team .avatar {
+    position: absolute;
+    top: -85px;
+    left: 0;
+    right: 0;
     margin: 0 auto;
 }
+
+.box-team-item .button-more {
+    display: block;
+    width: 50px;
+    height: 50px;
+    background-image: url(../img/team-buttom.png);
+    background-repeat: no-repeat;
+    border: none;
+    margin: 0 auto;
+}
+
+.box-team-item .button-more:focus {
+    outline: none;
+}
+
+.box-team-item  .btn-team{
+    display: block;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    background-color: #f4f4f4;
+    margin: 0 auto;
+}
+
+.button-more:hover{
+    background-color: #1085e4;
+}
+
 .page-form {
     background-image: url(../img/bg13.png);
     background-repeat: no-repeat;
+    background-position: center;
     background-size: cover;
+    padding: 70px 0 118px 0;
 }
 
-.bg-12 {
+.page-form-one {
     margin: 0 200px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.bg-12 img {
+.page-form-one img {
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 40px;
 }
 
-.bg-12 form {
+.page-form-one form {
     display: flex;
     flex-direction: column;
     margin: 150px 20px;
 }
 
-.bg-12 h2 {
+.page-form-one h2 {
     font-size: 40px;
     font-weight: 600px;
     color: #192b59;
@@ -1129,7 +1182,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#10359f', end
     margin-bottom: 25px;
     max-width: 400px;
 }
-.bg-12 input {
+.page-form-one input {
     margin: 10px;
     border: 1px solid #dce1e5;
     border-radius: 40px;
@@ -1138,17 +1191,17 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#10359f', end
     width: 500px;
 }
   
-.bg-12 input:focus {
+.page-form-one input:focus {
     outline: none;
 }
   
 
-.bg-12 input:hover {
+.page-form-one input:hover {
     color: black;
     background-color: #fff;
 }
 
-.bg-12 textarea {
+.page-form-one textarea {
     margin: 10px;
     border: 1px solid #dce1e5;
     border-radius: 40px;
@@ -1157,25 +1210,38 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#10359f', end
     width: 500px;
 }
 
-.bg-12 textarea:focus {
+.page-form-one textarea:focus {
     color: black;
     background-color: #fff;
 }
 
-.bg-12 textarea:focus {
+.page-form-one textarea:focus {
     outline: none;
     line-height: 1.1;
 }
 
-.bg-12 button {
+.page-form-onebutton {
     max-width: 250px;
 }
 
-.bg-12 span {
+.page-form-one span {
     display: block;
     text-align: center;
     padding: 0;
     margin: 0 auto;
+}
+
+.btn-primary-last{
+    background-color: #1085e4;
+    text-transform: uppercase;
+    color: white;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 25px 45px;
+    border-radius: 40px;
+    letter-spacing: 3.5px;
+    border: 1px solid #1085e4;
+    width: 250px;
 }
 
 .footer {
