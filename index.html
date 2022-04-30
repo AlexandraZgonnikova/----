@@ -275,7 +275,7 @@
                     </div>
 
                     <div class="box-price-item active">
-                        <h3><span>$</span>90 <span>/mo</span></h3>
+                        <h3><span>$</span>90<span>/mo</span></h3>
                         <p><strong> starter</strong></p>
                         <ul>
                             <li>Unlimited users Active</li>
@@ -285,11 +285,11 @@
                             <li>Free Hosting Name</li>
                             <li>24x7 Online Support</li>
                         </ul>
-                        <button type="submit" class="btn-primaty">Choose plan</a>
+                        <button type="submit" class="btn-primary">Choose plan</a>
                     </div>
 
                     <div class="box-price-item">
-                        <h3><span>$</span>350 <span>/mo</span></h3>
+                        <h3><span>$</span>350<span>/mo</span></h3>
                         <p><strong> starter</strong></p>
                         <ul>
                             <li>Unlimited users Active</li>
@@ -308,37 +308,43 @@
 
     <div class="page-team">
         <div class="wrap">
-            <h2><span>Angels</span>Our team</h2>
+            <h2 class="title-h2-40"><span>angels</span>Our Team</h2>
             <div class="box-team">
                 <div class="box-team-item">
-                    <img src="img/sloi_5.png" alt="Ricardo">
-                    <p><strong>founder</strong></p>
-                    <p>Ricardo T. Obrien</p>
+                    <img class="avatar" src="img/sloi_5.png" alt="ava">
+                    <p class="position">founder</p>
+                    <p class="name">Ricardo T. Obrien</p>
+                    <button class="btn-team button-more" type="button"></button>
                 </div>
+
                 <div class="box-team-item">
-                    <img src="img/sloi_6.png" alt="Alberto">
-                    <p><strong>ceo</strong></p>
-                    <p>Alberto Del Rio</p>
+                    <img class="avatar" src="img/sloi_6.png" alt="ava">
+                    <p class="position">founder</p>
+                    <p class="name">Alberto Del Rio</p>
+                    <button class="btn-team button-more" type="button"></button>
+                    <div class="btn-team btn-box" style="display:none"></div>
                 </div>
+
                 <div class="box-team-item">
-                    <img src="img/sloi_7.png" alt="Thomas">
-                    <p><strong>designer</strong></p>
-                    <p>Thomas Alva Adison</p>
+                    <img class="avatar" src="img/sloi_7.png" alt="ava">
+                    <p class="position">founder</p>
+                    <p class="name">Thomas Alva Adison</p>
+                    <button class="btn-team button-more"  type="button"></button>
                 </div>
             </div>
         </div>
     </div>
-
         <div class="page-form">
-            <div class="bg-12">
+            <div class="page-form-one">
                 <img src="img/screen6.png" alt="">
                 <form action="">
                     <h2>Start Your Free Trail No Need Credit Card.</h2>
-                    <input type="text" placeholder="Enter your name here">
+                    <div><input type="text" placeholder="Enter your name here">
+                    </div>
                     <input type="email" placeholder="Enter your email here">
                     <textarea name="textMessege" placeholder="Enter your message here" ></textarea>
-                    <button type="submit" class="btn-secondary"><span></span>Submit now</button>
-                </form>
+                    <button type="submit" class="btn-primary-last">submit now</button>
+                </form>              
             </div>
         </div>
 
@@ -354,8 +360,17 @@
                </ul>
             </div>
         </div>
-    </body>
 
-</html>
+
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function(){
+            $(".btn-team").click(function(){
+                $(".btn-team").hide();
+                $(".btn-box").fadeIn();
+            });
+        });
+    </script>
+    </body>
 
 </html>
